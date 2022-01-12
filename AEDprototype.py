@@ -132,7 +132,7 @@ def register():
             print("\n\nNome que registou é demasiado pequeno")
             
             
-        if  NameRegister.find("@")==-1 or NameRegister.find(".")==-1:
+        if  EmailRegister.find("@")==-1 or EmailRegister.find(".")==-1:
             print("\n\nO email que registou não é válido")
             
 
@@ -140,7 +140,7 @@ def register():
             print("\n\nA Password que registou não é válida")
               
 
-        if len(NameRegister)<=3:
+        if len(NicknameRegister)<=3:
             print("\n\nO Nickname que registou não é válido")
                    
        
